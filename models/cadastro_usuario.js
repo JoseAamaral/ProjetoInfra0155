@@ -29,12 +29,6 @@ const Cadastro_usuario = sequelize.define('cadastro_usuario',
       required: true
     },
 
-    perfil_adm: 
-    {
-      type: DataTypes.BOOLEAN,
-      required: true
-    },
-
     email: 
     {
       type: DataTypes.STRING,

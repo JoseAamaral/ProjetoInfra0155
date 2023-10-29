@@ -29,6 +29,12 @@ const Cadastro_equipamento = sequelize.define('cadastro_equipamento',
       required: true  
     },
 
+    quantidade: 
+    {
+      type:DataTypes.INTEGER,
+      required: true
+    },
+
     custo:
     {
       type:DataTypes.FLOAT
