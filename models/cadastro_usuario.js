@@ -29,6 +29,12 @@ const Cadastro_usuario = sequelize.define('cadastro_usuario',
       required: true
     },
 
+    confirma_senha:
+    {
+      type:DataTypes.STRING,
+      required: true
+    },
+
     email: 
     {
       type: DataTypes.STRING,
